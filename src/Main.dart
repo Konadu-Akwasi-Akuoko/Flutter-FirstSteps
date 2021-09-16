@@ -13,5 +13,10 @@ void main() {
   print("Type in a number from 1 to 50");
   int input = int.parse(stdin.readLineSync()!);
   String check = input.isEven ? " is an even number" : " is not an even number";
-  print("This number " + input.toString() + check);
+  print("This number ${input} ${check + " that's all, thank you."}");
+
+  //For loops in dart
+  for (int i = 0; i <= 10; i++) {
+    print("The loops number is: ${i}");
+  }
 }
